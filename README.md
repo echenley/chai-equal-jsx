@@ -9,9 +9,9 @@ The following tests are all passing:
 ```javascript
 import React from 'react';
 import chai, { expect } from 'chai';
-import expectJSX from '../chai-expect-jsx';
+import equalJSX from '../chai-equal-jsx';
 
-chai.use(expectJSX);
+chai.use(equalJSX);
 chai.should();
 
 class TestComponent extends React.Component {}
