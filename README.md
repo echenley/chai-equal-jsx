@@ -33,7 +33,7 @@ expect(<TestComponent />).to.not.equalJSX(<span />);
 expect(<div><TestComponent /></div>).to.includeJSX(<TestComponent />);
 expect(<div><TestComponent /><span /></div>).to.includeJSX(<span></span>);
 
-expect(<TestComponent />).to.not.includeJSX(<span>Not Me</span>);
+expect(<TestComponent />).to.not.includeJSX(<span></span>);
 expect(<div><span /><TestComponent /></div>).to.not.includeJSX(<a />);
 ```
 
@@ -55,7 +55,7 @@ class TestComponent extends React.Component {}
 (<div><TestComponent /></div>).should.includeJSX(<TestComponent />);
 (<div><TestComponent /><span /></div>).should.includeJSX(<span></span>);
 
-(<TestComponent />).should.not.includeJSX(<span>Not Me</span>);
+(<TestComponent />).should.not.includeJSX(<span></span>);
 (<div><span /><TestComponent /></div>).should.not.includeJSX(<a />);
 ```
 
