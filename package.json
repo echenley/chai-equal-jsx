@@ -1,6 +1,6 @@
 {
   "name": "chai-equal-jsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "equalJSX for Chai using Algolia's react-element-to-jsx-string.",
   "main": "chai-equal-jsx.js",
   "scripts": {
