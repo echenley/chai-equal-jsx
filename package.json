@@ -15,6 +15,7 @@
     "react",
     "test",
     "expect",
+    "should",
     "chai",
     "jsx"
   ],
