@@ -40,6 +40,8 @@ expect(<div><span /><TestComponent /></div>).to.not.includeJSX(<a />);
 ### Should
 
 ```javascript
+chai.should();
+
 class TestComponent extends React.Component {}
 
 // equalJSX
