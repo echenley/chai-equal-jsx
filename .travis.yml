@@ -1,3 +1,8 @@
+language: node_js
+node_js:
+- '4.0.0'
+script: 
+- npm test
 deploy:
   provider: npm
   email: henleyedition@gmail.com
@@ -6,5 +11,7 @@ deploy:
   on:
     tags: true
     repo: echenley/chai-equal-jsx
-  script: 
-    - npm test
+cache:
+  bundler: true
+  directories:
+    - node_modules
