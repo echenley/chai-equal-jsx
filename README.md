@@ -1,5 +1,7 @@
 # chai-equal-jsx
 
+[![Build Status](https://travis-ci.org/echenley/chai-equal-jsx.svg?branch=master)](https://travis-ci.org/echenley/chai-equal-jsx)
+
 Adds `equalJSX` and `includeJSX` methods to chai assertions. Uses Algolia's [react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string) under the hood.
 
 ## Setup
