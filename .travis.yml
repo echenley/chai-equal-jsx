@@ -10,6 +10,7 @@ deploy:
     secure: Qb2NTbkRQPIFbDLMWNl2AzELVboWv2LQbjXkLAb3htpv3AFbbyDPBcPOuP24xlRer/UxnXvY6Thoi/mPQj1FJZ6RZd5KRzKhcUBgMRuxQ331wfed3GyCcEdQf8MDkVGnyPc06BiOQK3OX6pe2SrhDciYYDcYuCbyhVtJ7hOsU/W6RiizN8RGDCAFXlwn/TcevffIOLmiQatYf/0JRkswwqt1f7uueKHugywXhVo+mbZJeucVJN0fTcemvttggtABamFYi2/i7yzhOCm/bzy8oBL0nyEpIYeBqFPg9bObI/WGd/Hg6znTaA8B1DHAGC2FtWeUv1N3C7tKx3MYtvH+Rw+wd2ANdjs07F4tbq6R3K1u/naLc5mrx+s0CTjHFF39aFAz166a17OOHq713fdJKQnWD4/PdTZihTw/J63+XEDqSaKboSjnqioE3xAnpZr0uJWTGOQIK4t9SQCtGU6kl7139t4MRCTly5vGJrm+NPLSxQ/cKh06b/Hw0U2Hdajasvx0pLcJXhZNUNCHwPIHctgQBVaaYKqfcjHMFIDfus+dswg67FTZtfgu11j85B+BwA2VvxSnS0clo9X+gGGMWRVftRyqYy7ZtPs2PgPhM6xmtY2Qhu9c9TGupXHND7K5x9DyUxv7ZS447rEhOyeH53tzSUM47v2QtfKi23SXluQ=
   on:
     tags: true
+    all_branches: true
     repo: echenley/chai-equal-jsx
 cache:
   bundler: true
