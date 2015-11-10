@@ -1,7 +1,9 @@
 # chai-equal-jsx
 
 [![NPM version](http://img.shields.io/npm/v/chai-equal-jsx.svg?style=flat-square)](https://www.npmjs.org/package/chai-equal-jsx)
-[![Build Status](https://travis-ci.org/echenley/chai-equal-jsx.svg?branch=master)](https://travis-ci.org/echenley/chai-equal-jsx)
+[![Build Status](https://img.shields.io/travis/echenley/chai-equal-jsx.svg?branch=master)](https://travis-ci.org/echenley/chai-equal-jsx)
+[![Build Status](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+[![Downloads](https://img.shields.io/npm/dm/chai-equal-jsx.svg?style=flat-square)](http://npm-stat.com/charts.html?package=chai-equal-jsx)
 
 Adds `equalJSX` and `includeJSX` methods to chai assertions. Uses Algolia's [react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string) under the hood.
 
