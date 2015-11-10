@@ -12,12 +12,14 @@
     "url": "git+https://github.com/echenley/chai-equal-jsx.git"
   },
   "keywords": [
-    "react",
-    "test",
-    "expect",
-    "should",
+    "assert",
+    "assertion",
     "chai",
-    "jsx"
+    "expect",
+    "jsx",
+    "react",
+    "should",
+    "test"
   ],
   "author": "Evan Henley <evan.henley@gmail.com> (http://henleyedition.com)",
   "license": "MIT",
