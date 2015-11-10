@@ -1,6 +1,6 @@
 {
   "name": "chai-equal-jsx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JSX assertions for Chai",
   "main": "chai-equal-jsx.js",
   "scripts": {
