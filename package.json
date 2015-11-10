@@ -1,11 +1,11 @@
 {
   "name": "chai-equal-jsx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JSX assertions for Chai",
   "main": "chai-equal-jsx.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --opts mocha.opts && eslint .",
-    "test:watch": "./node_modules/.bin/mocha --opts mocha.opts --watch --reporter min"
+    "test": "./node_modules/.bin/mocha --opts test/mocha.opts && eslint .",
+    "test:watch": "./node_modules/.bin/mocha --opts test/mocha.opts --watch --reporter min"
   },
   "repository": {
     "type": "git",
