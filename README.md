@@ -9,7 +9,7 @@ Adds `equalJSX` and `includeJSX` methods to chai assertions. Uses Algolia's [rea
 
 ```javascript
 import chai from 'chai';
-import equalJSX from '../chai-equal-jsx';
+import equalJSX from 'chai-equal-jsx';
 
 chai.use(equalJSX);
 ```
