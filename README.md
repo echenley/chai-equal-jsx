@@ -5,6 +5,12 @@
 
 Adds `equalJSX` and `includeJSX` methods to chai assertions. Uses Algolia's [react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string) under the hood.
 
+## Installation
+
+```
+npm install -D chai-equal-jsx
+```
+
 ## Setup
 
 ```javascript
