@@ -47,10 +47,12 @@ describe('Chai Expect JSX Plugin', () => {
     describe('includeJSX', () => {
         it('should work', () => {
             // expect syntax
+            expect(<div><span>test</span></div>).to.includeJSX(<span>test</span>);
             expect(<div><TestComponent /></div>).to.includeJSX(<TestComponent />);
             expect(<div><TestComponent /><span /></div>).to.includeJSX(<span></span>);
 
             // should syntax
+            (<div><span>test</span></div>).should.includeJSX(<span>test</span>);
             (<div><TestComponent /></div>).should.includeJSX(<TestComponent />);
             (<div><TestComponent /><span /></div>).should.includeJSX(<span></span>);
         });
@@ -59,10 +61,12 @@ describe('Chai Expect JSX Plugin', () => {
     describe('not.includeJSX', () => {
         it('should work', () => {
             // expect syntax
+            expect(<div><span>test</span></div>).to.not.includeJSX(<span>fail</span>);
             expect(<TestComponent />).to.not.includeJSX(<span>Not Me</span>);
             expect(<div><span /><TestComponent /></div>).to.not.includeJSX(<a />);
 
             // should syntax
+            (<div><span>test</span></div>).should.not.includeJSX(<span>fail</span>);
             (<TestComponent />).should.not.includeJSX(<span>Not Me</span>);
             (<div><span /><TestComponent /></div>).should.not.includeJSX(<a />);
         });

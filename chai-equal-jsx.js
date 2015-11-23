@@ -22,6 +22,10 @@
 }(function chaiExpectJSX(chai, utils, reactElementToJSXString) {
     'use strict';
 
+    function collapseWhiteSpace(str) {
+        return str.replace(/\s+/g, ' ');
+    }
+
     function equalJSX(expected) {
         var actualJSX = reactElementToJSXString(this._obj);
         var expectedJSX = reactElementToJSXString(expected);
@@ -34,8 +38,8 @@
     }
 
     function includeJSX(expected) {
-        var actualJSX = reactElementToJSXString(this._obj);
-        var expectedJSX = reactElementToJSXString(expected);
+        var actualJSX = collapseWhiteSpace(reactElementToJSXString(this._obj));
+        var expectedJSX = collapseWhiteSpace(reactElementToJSXString(expected));
 
         return this.assert(
             actualJSX.indexOf(expectedJSX) !== -1,
