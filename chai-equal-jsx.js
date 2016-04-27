@@ -32,8 +32,11 @@
 
         return this.assert(
             actualJSX === expectedJSX,
-            'expected ' + actualJSX + ' to equal ' + expectedJSX,
-            'expected ' + actualJSX + ' not to equal ' + expectedJSX
+            'Unmatched JSX expression',
+            'Unmatched JSX expression',
+            expectedJSX,
+            actualJSX,
+            true
         );
     }
 
